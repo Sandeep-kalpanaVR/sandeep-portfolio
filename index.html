@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sandeep Web Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-glow"></div>
+
+  <header class="navbar">
+    <h2>Sandeep<span>Webs</span></h2>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="tag">Frontend Website Developer</p>
+      <h1>Hi, I am <span>Sandeep</span></h1>
+      <p>
+        I create clean, modern, and mobile-friendly websites using HTML, CSS,
+        and JavaScript. Here you can see all my website demos in one place.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View My Websites</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="stat-card">
+        <h2>HTML</h2>
+        <p>Structure</p>
+      </div>
+      <div class="stat-card">
+        <h2>CSS</h2>
+        <p>Design</p>
+      </div>
+      <div class="stat-card">
+        <h2>JS</h2>
+        <p>Interaction</p>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="section-heading">
+        <p class="tag">My Work</p>
+        <h2>Websites I Have Created</h2>
+        <p>Click any project to open the live website.</p>
+      </div>
+
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="business">Business</button>
+        <button class="filter-btn" data-filter="personal">Personal</button>
+        <button class="filter-btn" data-filter="creative">Creative</button>
+      </div>
+
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="section-heading">
+        <p class="tag">Services</p>
+        <h2>What I Can Build</h2>
+      </div>
+
+      <div class="service-grid">
+        <div class="service-card">
+          <h3>Business Websites</h3>
+          <p>Simple websites for shops, gyms, salons, restaurants, and local businesses.</p>
+        </div>
+
+        <div class="service-card">
+          <h3>Landing Pages</h3>
+          <p>Clean one-page websites for showing services, offers, and contact details.</p>
+        </div>
+
+        <div class="service-card">
+          <h3>Personal Websites</h3>
+          <p>Birthday websites, portfolio websites, photo galleries, and creative pages.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-card">
+        <p class="tag">Contact</p>
+        <h2>Want a website?</h2>
+        <p>
+          I can create a simple, clean, and mobile-friendly website for your business.
+        </p>
+
+        <div class="contact-buttons">
+          <a href="https://wa.me/916302624829" target="_blank" class="btn primary">
+            WhatsApp Me
+          </a>
+          <button class="btn secondary" id="copyEmailBtn">
+            Copy Email
+          </button>
+        </div>
+
+        <p id="copyMessage"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made by Sandeep ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
