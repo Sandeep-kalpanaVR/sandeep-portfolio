@@ -6,8 +6,8 @@ const projects = [
     description:
       "A modern gym website with membership plans, trainers, gallery, BMI calculator, contact section, and responsive design.",
     tags: ["HTML", "CSS", "JavaScript", "Business"],
-    liveLink: "https://sandeep-kalpanavr.github.io/GYM-website-demo/",
-    codeLink: "https://github.com/Sandeep-kalpanaVR/GYM-website-demo"
+    liveLink: "https://sandeep-kalpanavr.github.io/GYM-demo//",
+    codeLink: "https://github.com/Sandeep-kalpanaVR/GYM-demo"
   },
   {
     title: "Bala Akka Birthday Website",
@@ -26,8 +26,8 @@ const projects = [
     description:
       "A cool futuristic website with neon design, particles, animations, hover effects, and modern UI.",
     tags: ["Creative", "Neon", "JavaScript"],
-    liveLink: "https://sandeep-kalpanavr.github.io/futuristic-website/",
-    codeLink: "https://github.com/Sandeep-kalpanaVR/futuristic-website"
+    liveLink: "https://sandeep-kalpanavr.github.io/Future//",
+    codeLink: "https://github.com/Sandeep-kalpanaVR/Future"
   },
   {
     title: "Phone Store Website",
