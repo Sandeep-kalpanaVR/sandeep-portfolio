@@ -6,8 +6,18 @@ const projects = [
     description:
       "A modern gym website with membership plans, trainers, gallery, BMI calculator, contact section, and responsive design.",
     tags: ["HTML", "CSS", "JavaScript", "Business"],
-    liveLink: "https://sandeep-kalpanavr.github.io/GYM-demo//",
+    liveLink: "https://sandeep-kalpanavr.github.io/GYM-demo/",
     codeLink: "https://github.com/Sandeep-kalpanaVR/GYM-demo"
+  },
+  {
+    title: "Futuristic Website",
+    category: "creative",
+    icon: "🚀",
+    description:
+      "A cool futuristic website with neon design, particles, animations, hover effects, and modern UI.",
+    tags: ["Creative", "Neon", "JavaScript"],
+    liveLink: "https://sandeep-kalpanavr.github.io/Future/",
+    codeLink: "https://github.com/Sandeep-kalpanaVR/Future"
   },
   {
     title: "Bala Akka Birthday Website",
@@ -18,26 +28,6 @@ const projects = [
     tags: ["Birthday", "Photos", "Interactive"],
     liveLink: "https://sandeep-kalpanavr.github.io/Happy-Birthday-Bala-Akka/",
     codeLink: "https://github.com/Sandeep-kalpanaVR/Happy-Birthday-Bala-Akka"
-  },
-  {
-    title: "Futuristic Website",
-    category: "creative",
-    icon: "🚀",
-    description:
-      "A cool futuristic website with neon design, particles, animations, hover effects, and modern UI.",
-    tags: ["Creative", "Neon", "JavaScript"],
-    liveLink: "https://sandeep-kalpanavr.github.io/Future//",
-    codeLink: "https://github.com/Sandeep-kalpanaVR/Future"
-  },
-  {
-    title: "Phone Store Website",
-    category: "business",
-    icon: "📱",
-    description:
-      "A clean phone store website with home page, product listing page, contact page, and responsive layout.",
-    tags: ["HTML", "CSS", "Business"],
-    liveLink: "#",
-    codeLink: "#"
   }
 ];
 
@@ -58,16 +48,6 @@ function displayProjects(filter = "all") {
     const card = document.createElement("article");
     card.className = "project-card";
 
-    const liveButton =
-      project.liveLink === "#"
-        ? `<span class="small-link disabled-link">Coming Soon</span>`
-        : `<a href="${project.liveLink}" target="_blank" class="small-link">Live Website</a>`;
-
-    const codeButton =
-      project.codeLink === "#"
-        ? ""
-        : `<a href="${project.codeLink}" target="_blank" class="small-link">Source Code</a>`;
-
     card.innerHTML = `
       <div class="project-image">${project.icon}</div>
 
@@ -80,8 +60,13 @@ function displayProjects(filter = "all") {
         </div>
 
         <div class="project-links">
-          ${liveButton}
-          ${codeButton}
+          <a href="${project.liveLink}" target="_blank" class="small-link">
+            Live Website
+          </a>
+
+          <a href="${project.codeLink}" target="_blank" class="small-link">
+            Source Code
+          </a>
         </div>
       </div>
     `;
@@ -103,7 +88,7 @@ filterButtons.forEach((button) => {
 });
 
 copyEmailBtn.addEventListener("click", () => {
-  const email = "sandeepsrichara10292@gmail.com";
+  const email = "sandeepsricharan10292@gmail.com";
 
   navigator.clipboard.writeText(email).then(() => {
     copyMessage.textContent = "Email copied: " + email;
