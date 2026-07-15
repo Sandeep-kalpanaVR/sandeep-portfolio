@@ -8,6 +8,16 @@ const projects = [
     tags: ["HTML", "CSS", "JavaScript", "Business"],
     liveLink: "https://sandeep-kalpanavr.github.io/GYM-demo/",
     codeLink: "https://github.com/Sandeep-kalpanaVR/GYM-demo"
+ },    
+ { 
+    title: "Disney Cafe",
+    category: "business",
+    icon: "🎂",
+    description:
+      "A modern Bakery website with Menu, Location, gallery, contact section, and responsive design.",
+    tags: ["HTML", "CSS", "JavaScript", "Business"],
+    liveLink: "https://sandeep-kalpanavr.github.io/Disney-cafe/",
+    codeLink: "https://github.com/Sandeep-kalpanaVR/Disney-cafe"
   },
   {
     title: "Futuristic Website",
