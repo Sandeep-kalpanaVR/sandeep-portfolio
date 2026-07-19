@@ -38,6 +38,16 @@ const projects = [
     tags: ["Birthday", "Photos", "Interactive"],
     liveLink: "https://sandeep-kalpanavr.github.io/Happy-Birthday-Bala-Akka/",
     codeLink: "https://github.com/Sandeep-kalpanaVR/Happy-Birthday-Bala-Akka"
+  },
+ {
+    title: "Principal Farewell",
+    category: "personal",
+    icon: "",
+    description:
+      "An interactive Farwell website with wishes, photos,",
+    tags: ["Photos", "Interactive"],
+    liveLink: "https://sandeep-kalpanavr.github.io/Farewell/",
+    codeLink: "https://github.com/Sandeep-kalpanaVR/Farewell"
   }
 ];
 
